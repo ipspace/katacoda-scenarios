@@ -1,5 +1,3 @@
-[Ivan Pepelnjak](https://www.linkedin.com/in/ivanpepelnjak/) recently created a set of tools to build network simulation labs 
-([netsim-tools](https://netsim-tools.readthedocs.io/en/latest/install.html)), 
-and version 0.5 now supports [Containerlab](https://blog.ipspace.net/2021/04/netsim-containerlab.html)
+The network simulation tools ([netsim-tools](https://netsim-tools.readthedocs.io/en/latest/install.html)) help you build, deploy, and configure complex virtual lab topologies.
 
-This browser-based tutorial shows you how to get started with these new tools
+In this scenario, you'll build a three-router virtual lab running OSPF, IBGP and EBGP on FRRouting containers supported by [Containerlab](https://blog.ipspace.net/2021/04/netsim-containerlab.html).

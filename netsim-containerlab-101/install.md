@@ -6,10 +6,4 @@
 
 `sudo bash -c "$(curl -sL https://get-clab.srlinux.dev)"`{{execute}}
 
-* Install Ansible
-
-`sudo pip3 install ansible`{{execute}}
-
-* Install Ansible **community.general** connection to get the latest version of Docker connection plugin.
-
-`ansible-galaxy collection install community.general`{{execute}}
+* Ansible 2.9 is already installed in Katacoda environment, so we're ready to roll.

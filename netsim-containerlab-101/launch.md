@@ -4,7 +4,7 @@
 
 * Prepare the containerlab topology file, Ansible inventory, and **ansible.cfg**:
 
-`create-topology -t containerlab.yml -p -i -c`{{execute}}
+`create-topology -t netsim-tools/examples/frr.yml -p -i -c`{{execute}}
 
 * Launch the lab:
 

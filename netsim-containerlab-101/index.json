@@ -20,6 +20,10 @@
       {
         "title": "Configure FRR",
         "text": "configure.md"
+      },
+      {
+        "title": "Explore the network",
+        "text": "inspect.md"
       }
     ],
     "intro": {

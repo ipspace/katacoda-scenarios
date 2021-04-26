@@ -1,4 +1,4 @@
-* Initial configuration of FRR containers (interface addresses, hostnames)
+* Initial configuration of FRR containers creates loopback interfaces, and sets the interface addresses and hostnames.
 
 `initial-config.ansible -t initial`{{execute}}
 
@@ -13,9 +13,3 @@
 * Use **vtysh** to connect to the FRR daemon (which emulates the *industry-standard* CLI)
 
 `vtysh`{{execute}}
-
-* Use familiar show commands like **show ip bgp summary** or **show ip bgp** to inspect the OSPF neighbors, BGP neighbors, BGP table, or IP routing table
-
-`show ip bgp summary`{{execute}}
-
-`show ip bgp`{{execute}}
