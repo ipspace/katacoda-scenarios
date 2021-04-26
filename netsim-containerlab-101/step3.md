@@ -1,3 +1,0 @@
-Live happily ever after!
-
-I hope you enjoyed this short demo of the adjacent possible - unfinished, but with great potential...

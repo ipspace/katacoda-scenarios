@@ -8,9 +8,13 @@
 
 * Install Ansible
 
-`sudo pip3 install ansible`
+`sudo pip3 install ansible`{{execute}}
 
-* (Optional) get 4GB extra swap space
+* (Recommended) Add netsim-tools to PATH:
+
+`export PATH="netsim-tools:$PATH"`{{execute}}
+
+* (Optional) Get 4GB extra swap space
 
 `mkdir /root/dev; fallocate -l 4G /root/dev/md-0; chmod 600 /root/dev/md-0; mkswap /root/dev/md-0; swapon /root/dev/md-0`{{execute}}
 
