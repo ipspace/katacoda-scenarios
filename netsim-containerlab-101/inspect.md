@@ -10,7 +10,7 @@
 
 `exit`{{execute}}
 
-* Keep pressing ctrl-D/exit until you get the shell prompt ($)
+* Keep pressing exit until you get the shell prompt ($)
 * Connect to another device (R1) with **connect.sh**
 
 `connect.sh r1`{{execute}}
