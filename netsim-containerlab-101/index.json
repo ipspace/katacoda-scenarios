@@ -1,0 +1,34 @@
+{
+  "title": "Getting started with netsim-tools, Containerlab, and FRR",
+  "description": "Collaborations at the speed of cloud",
+  "difficulty": "Beginner",
+  "time": "10",
+  "details": {
+    "steps": [
+      {
+        "title": "Install netsim-tools and Containerlab",
+        "text": "install.md"
+      },
+      {
+        "title": "Launch the lab",
+        "text": "launch.md"
+      },
+      {
+        "title": "Configure FRR",
+        "text": "configure.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
