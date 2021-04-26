@@ -4,13 +4,19 @@
 
 `show ip bgp`{{execute}}
 
-* Disconnect from vtysh and current container with **exit** (or ctrl-D). Keep pressing ctrl-D until you get the shell prompt ($)
+`show ip route`{{execute}}
+
+* Disconnect from vtysh and current container with **exit** or ctrl-D.
+
+`exit`{{execute}}
+
+* Keep pressing ctrl-D/exit until you get the shell prompt ($)
 * Connect to another device (R1) with **connect.sh**
 
 `connect.sh r1`{{execute}}
 
-* Ping a router in another autonomous system (the /etc/hosts file has been created during the initial configuration)
+* Ping a router in another autonomous system (the /etc/hosts file has been created during the initial configuration). Use -I option to specify the source IP address (the loopback interface).
 
-`ping r3`{{execute}}
+`ping -I 10.0.0.1 r3`{{execute}}
 
-* You can also inspect the Ansible inventory file (**hosts.yml**), Ansible host variables (in **host_vars** directory) or Ansible group variables (in **group_vars** directory).
+* Inspect the Ansible inventory file (**hosts.yml**), Ansible host variables (in **host_vars** directory) or Ansible group variables (in **group_vars** directory).
