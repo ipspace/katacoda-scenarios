@@ -12,9 +12,10 @@
 
 * Use **vtysh** to connect to the FRR daemon (which emulates the *industry-standard* CLI)
 
-`connect.sh r2`{{execute}}
+`vtysh`{{execute}}
 
 * Use familiar show commands like **show ip bgp summary** or **show ip bgp** to inspect the OSPF neighbors, BGP neighbors, BGP table, or IP routing table
 
 `show ip bgp summary`{{execute}}
+
 `show ip bgp`{{execute}}

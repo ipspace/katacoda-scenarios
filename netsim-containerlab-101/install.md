@@ -10,14 +10,6 @@
 
 `sudo pip3 install ansible`{{execute}}
 
-* (Recommended) Add netsim-tools to PATH:
+* Install Ansible **community.general** connection to get the latest version of Docker connection plugin.
 
-`export PATH="netsim-tools:$PATH"`{{execute}}
-
-* (Optional) Get 4GB extra swap space
-
-`mkdir /root/dev; fallocate -l 4G /root/dev/md-0; chmod 600 /root/dev/md-0; mkswap /root/dev/md-0; swapon /root/dev/md-0`{{execute}}
-
-* Make life easier by enabling auto-completion of shell commands:
-
-`source <(containerlab completion bash)`{{execute}}
+`ansible-galaxy collection install community.general`{{execute}}
