@@ -1,3 +1,8 @@
+#
+# This topology file defines a simple multi-AS BGP+OSPF
+# lab running on three FRR containers
+#
+---
 provider: clab
 defaults:
   device: frr
