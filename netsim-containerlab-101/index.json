@@ -4,26 +4,47 @@
   "difficulty": "Beginner",
   "time": "10",
   "details": {
+    "assets": {
+      "client": [
+        {"file": "frr-topology.yml", "target": "/root/" }
+      ]
+    },
     "steps": [
       {
         "title": "Install netsim-tools and Containerlab",
-        "text": "install.md"
+        "text": "1-install.md"
       },
       {
         "title": "Make your life easier",
-        "text": "simplify.md"
+        "text": "2-simplify.md"
+      },
+      {
+        "title": "Inspect the topology file",
+        "text": "3-topology.md"
       },
       {
         "title": "Launch the lab",
-        "text": "launch.md"
+        "text": "4-launch.md"
       },
       {
         "title": "Configure FRR",
-        "text": "configure.md"
+        "text": "5-configure.md"
       },
       {
+        "title": "Connect to a network device",
+        "text": "6-connect.md"
+      }
+      {
+        "title": "Use FRRouting CLI",
+        "text": "7-vtysh.md"
+      }
+      {
         "title": "Explore the network",
-        "text": "inspect.md"
+        "text": "8-inspect.md"
+      }
+      {
+        "title": "Explore the network",
+        "text": "9-ping.md"
       }
     ],
     "intro": {
