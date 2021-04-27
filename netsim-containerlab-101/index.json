@@ -19,7 +19,7 @@
         "text": "2-simplify.md"
       },
       {
-        "title": "Inspect the topology file",
+        "title": "Topology file",
         "text": "3-topology.md"
       },
       {
@@ -31,7 +31,7 @@
         "text": "5-configure.md"
       },
       {
-        "title": "Connect to a network device",
+        "title": "Connect to R2",
         "text": "6-connect.md"
       },
       {

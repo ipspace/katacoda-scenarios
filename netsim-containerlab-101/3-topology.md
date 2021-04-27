@@ -2,7 +2,7 @@
 
 Our lab topology is defined in `frr-topology.yml` file. Let's look at it:
 
-`cat netsim-tools/examples/frr.yml`{{execute}}
+`cat frr-topology.yml`{{execute}}
 
 Here's what that file is saying:
 

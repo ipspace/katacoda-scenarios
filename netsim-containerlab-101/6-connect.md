@@ -9,7 +9,3 @@ FRR runs on Linux, and when you connect to the container you get the usual **bas
 `ip link`{{execute}}
 
 `ip addr`{{execute}}
-
-Use **vtysh** to connect to the FRR daemon (which emulates the *industry-standard* CLI)
-
-`vtysh`{{execute}}

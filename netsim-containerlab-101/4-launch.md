@@ -2,7 +2,7 @@
 
 * Create the configuration files:
 
-`create-topology -t netsim-tools/examples/frr.yml -p -i -c`{{execute}}
+`create-topology -t frr-topology.yml -p -i -c`{{execute}}
 
 * Launch the lab:
 
